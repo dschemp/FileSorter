@@ -1,4 +1,11 @@
 # FileSorter
+FileSorter is a simple CLI program to sort a directory according to their file extension and last accessed date. File can either be copied or moved. 
+
+By default, file are only copied and have to be older than two weeks. The new files are given new names consisting of their old file name (partially) and the last accessed date appended. 
+
+This ensures the sorting by file name to remain practically in the same order as before.
+
+### Libraries:
 
 This program utilizes the [CommandLineParser](https://github.com/commandlineparser/commandline) library to make it user-friendly.
 
